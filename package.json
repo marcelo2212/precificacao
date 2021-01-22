@@ -1,0 +1,24 @@
+{
+  "name": "precificacao",
+  "version": "1.0.0",
+  "description": "API para retornar o preço do metro quadrado do imóvel",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/index.js",
+    "test": "mocha ./test/app.spec.js"
+  },
+  "author": "Marcelo Gonçalves",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.7",
+    "swagger-jsdoc": "^6.0.1",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0"
+  }
+}
