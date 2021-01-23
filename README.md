@@ -1,12 +1,12 @@
 # precificacao
 
-Sumario:
+<h4>Sumario:</h4>
   API para retornar o valor do metro quadrado
  
- Descrição
+ <h4>Descrição</h4>
   A API de precificação serve para retornar um valor para servir de base para realizar um cálculo de preço de um determinado imóvel a partir de quantos metros quadrados ele tem.
   
-  Estrutura
+  <h4>Estrutura</h4>
     
     A estrutura do projeto contém o seguinte fluxo
       
@@ -40,7 +40,7 @@ Sumario:
           - app.js
             Arquivo responsável por instanciar todas as configurações da API, e instanciar as rotas da API
             
-  Scripts de execução
+  <h4>Scripts de execução</h4>
   
     - npm start: Inicializa a API com o uso do framework nodemon para o desenvolvimento
     
@@ -52,7 +52,7 @@ Sumario:
     
     - npm test: comando para executar os testes unitários da API
   
-  End-point
+  <h4>End-point</h4>
   
     - http://{host}:{porta}/
       Ao ser chamado o end-point, a API já retorna o preço do metro quadrado
