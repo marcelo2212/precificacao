@@ -1,0 +1,10 @@
+{
+    "definition": {
+        "openapi": "3.0.0",
+        "info": {
+            "title": "API RETORNO PREÇO DO METRO QUADRADO",
+            "version": "0.0.2"
+        }
+    },
+    "apis": ["./src/routes/*.js"]
+}

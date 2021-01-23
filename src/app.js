@@ -4,22 +4,11 @@ const bodyParse = require('body-parser');
 const express = require('express');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsDoc = require('swagger-jsdoc');
+const optSwagger = require('./config/option-swagger.json');
 
 const app = express();
 
-
-const options = {
-    definition: {
-        openapi: '3.0.0',
-        info: {
-            title: 'API Preço do Metros Quadrados',
-            version: '0.0.1'
-        },
-    },
-    apis:['./src/routes/*.js']
-};
-
-const swaggerSpec = swaggerJsDoc(options);
+const swaggerSpec = swaggerJsDoc(optSwagger);
 
 const router = express.Router();
 
